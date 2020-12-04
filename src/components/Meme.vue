@@ -23,7 +23,7 @@ export default {
       text.config =
         configUrl[1] == 'santa'
           ? santa
-          : configUrl[1] == 'thug'
+          : configUrl[1] == 'gangsta'
           ? thug
           : shenko;
     } else if (configUrl.length == 4) {
@@ -34,7 +34,7 @@ export default {
           if (x == 'santa') {
             return true;
           }
-          if (x == 'thug') {
+          if (x == 'gangsta') {
             return true;
           }
         });
@@ -45,7 +45,7 @@ export default {
           : test.length == 1
           ? test[0] == 'santa'
             ? santa
-            : test[0] == 'thug'
+            : test[0] == 'gangsta'
             ? thug
             : shenko
           : shenko;
