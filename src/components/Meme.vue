@@ -55,6 +55,6 @@ export default {
 <style lang="css" scoped>
 .bg {
   width: 512px;
-  max-width: 512px;
+  max-width: 100%;
 }
 </style>
